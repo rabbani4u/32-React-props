@@ -6,7 +6,7 @@ const fname = "Rabbani";
 const lname = "Khan";
 const age = 25;
 ReactDOM.render(
-<div>
+<div className='my-div'>
 <h1>My name is {`${fname} ${lname} and I am ${age} years old`}</h1>
 <p>Here is your favourite Food</p>
 <ul>
