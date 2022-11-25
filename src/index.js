@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-const name = "Rabbani Khan";
+const fname = "Rabbani";
+const lname = "Khan";
+const age = 25;
 ReactDOM.render(
 <div>
-<h1>Hello {name}</h1>
+<h1>My name is {`${fname} ${lname} and I am ${age} years old`}</h1>
 <p>Here is your favourite Food</p>
 <ul>
   <li>Coffee</li>
